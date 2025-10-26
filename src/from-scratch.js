@@ -25,7 +25,13 @@ const getEvenNumbers = (arrOfNumbers) => {
   return newArrOfNumbers;
 };
 
-const doubleEveryNumber = () => { };
+const doubleEveryNumber = (arrOfNumbers) => {
+  const newArrOfNumbers = [];
+  for (let i = 0; i < arrOfNumbers.length; i++) {
+    newArrOfNumbers.push(arrOfNumbers[i] * 2);
+  }
+  return newArrOfNumbers;
+};
 
 const convertToBooleans = () => { };
 
