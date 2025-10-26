@@ -16,7 +16,7 @@ const logEachName = (names) => {
 };
 
 const logEachUserBio = (users) => {
-  return users.forEach(console.log(users.bio));
+  users.forEach((user) => console.log(user.bio));
 };
 
 module.exports = {
