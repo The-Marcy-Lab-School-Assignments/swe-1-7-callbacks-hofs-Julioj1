@@ -1,6 +1,8 @@
 const myEvery = (arr, callback) => {
   for (const value of arr) {
-    if (callback) return false;
+    if (!callback(value)) {
+      return false;
+    }
   }
   return true;
 };
