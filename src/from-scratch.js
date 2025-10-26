@@ -46,7 +46,11 @@ const convertToBooleans = (arrOfValues) => {
 };
 
 // Create your own Higher Order Functions:
-const myForEach = () => { };
+const myForEach = (array, callback) => {
+  for (let i = 0; i < array.length; i++) {
+    callback(array[i])
+  }
+};
 
 const myMap = () => { };
 
