@@ -72,7 +72,15 @@ const myFilter = (array, test) => {
   return newArray;
 };
 
-const myFind = () => { };
+const myFind = (array, test) => {
+  for (let i = 0; i < array.length; i++) {
+    if (test(array[i])) {
+      return array[i]
+    } else {
+      continue;
+    }
+  }
+};
 
 // Use Array.sort() and provide the correct callback sorting function:
 module.exports = {
