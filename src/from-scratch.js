@@ -60,7 +60,17 @@ const myMap = (array, transform) => {
   return newArray;
 };
 
-const myFilter = () => { };
+const myFilter = (array, test) => {
+  const newArray = [];
+  for (let i = 0; i < array.length; i++) {
+    if (test(array[i])) {
+      newArray.push(array[i])
+    } else {
+      continue;
+    }
+  }
+  return newArray;
+};
 
 const myFind = () => { };
 
