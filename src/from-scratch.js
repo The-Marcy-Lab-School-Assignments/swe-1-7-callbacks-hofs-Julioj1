@@ -7,7 +7,13 @@ const logEachValue = (arrValues) => {
   }
 };
 
-const makePeopleHappy = () => { };
+const makePeopleHappy = (arrOfObjects) => {
+  for (let i = 0; i < arrOfObjects.length; i++) {
+    if (arrOfObjects[i].isHappy === false) {
+      arrOfObjects[i].isHappy = true;
+    }
+  }
+};
 
 const getEvenNumbers = () => { };
 
