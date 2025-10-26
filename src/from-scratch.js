@@ -1,5 +1,11 @@
 // Create callback functions for Higher-Order Functions:
-const logEachValue = () => { };
+const logEachValue = (arrValues) => {
+  let index = arrValues[0];
+  for (let i = 0; i < arrValues.length; i++) {
+    index = [i];
+    console.log(`Value: ${arrValues[i]}, index: ${index}.`);
+  }
+};
 
 const makePeopleHappy = () => { };
 

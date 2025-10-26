@@ -7,7 +7,7 @@
       "DeTe4": 0
     },
     "From Scratch Tests": {
-      "FrScTe1": 0,
+      "FrScTe1": 1,
       "FrScTe2": 0,
       "FrScTe3": 0,
       "FrScTe4": 0,
@@ -65,7 +65,7 @@
   },
   "humanReadable": {
     "Debug Tests": "0/4",
-    "finalTestScore": "FINAL SCORE: 0/18",
-    "From Scratch Tests": "0/14"
+    "finalTestScore": "FINAL SCORE: 1/18",
+    "From Scratch Tests": "1/14"
   }
 }
