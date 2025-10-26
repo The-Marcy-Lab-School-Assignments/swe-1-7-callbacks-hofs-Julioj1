@@ -3,7 +3,7 @@
     "Debug Tests": {
       "DeTe1": 1,
       "DeTe2": 1,
-      "DeTe3": 0,
+      "DeTe3": 1,
       "DeTe4": 0
     },
     "From Scratch Tests": {
@@ -64,8 +64,8 @@
     "From Scratch Tests myFind - returns undefined if no element makes the callback return a truthy value": "FrScTe14"
   },
   "humanReadable": {
-    "Debug Tests": "2/4",
-    "finalTestScore": "FINAL SCORE: 16/18",
+    "Debug Tests": "3/4",
+    "finalTestScore": "FINAL SCORE: 17/18",
     "From Scratch Tests": "14/14"
   }
 }
