@@ -12,7 +12,7 @@ const makePeopleHappy = (arrOfObjects) => {
 };
 
 const getEvenNumbers = (arrOfNumbers) => {
-  return arrOfNumbers.map((num) => num * 2);
+  return arrOfNumbers.filter((num) => num % 2 === 0);
 };
 
 const doubleEveryNumber = (arrOfNumbers) => {
