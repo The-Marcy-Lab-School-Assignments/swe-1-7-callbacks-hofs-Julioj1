@@ -16,11 +16,7 @@ const getEvenNumbers = (arrOfNumbers) => {
 };
 
 const doubleEveryNumber = (arrOfNumbers) => {
-  const newArrOfNumbers = [];
-  for (let i = 0; i < arrOfNumbers.length; i++) {
-    newArrOfNumbers.push(arrOfNumbers[i] * 2);
-  }
-  return newArrOfNumbers;
+  return arrOfNumbers.map((num) => num * 2);
 };
 
 const convertToBooleans = (arrOfValues) => {
