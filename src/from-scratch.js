@@ -20,15 +20,7 @@ const doubleEveryNumber = (arrOfNumbers) => {
 };
 
 const convertToBooleans = (arrOfValues) => {
-  const newArrOfValues = [];
-  for (let i = 0; i < arrOfValues.length; i++) {
-    if (arrOfValues[i]) {
-      newArrOfValues.push(true)
-    } else if (!arrOfValues[i]) {
-      newArrOfValues.push(false);
-    }
-  }
-  return newArrOfValues;
+  return arrOfValues.map((value) => Boolean(value));
 };
 
 // Create your own Higher Order Functions:
